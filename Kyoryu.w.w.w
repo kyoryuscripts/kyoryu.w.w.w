@@ -30,9 +30,3 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/ScriptXPaid/Scripts/r
 end)
 local Tab = Window:NewTab("Universal")
 local Section = Tab:NewSection("Player")
-Section:NewSlider("Walk Speed", "SliderInfo", 500, 0, function(s) -- 500 (MaxValue) | 0 (MinValue)
-    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
-end)
-Section:NewSlider("Jump Power", "SliderInfo", 500, 0, function(s) -- 500 (MaxValue) | 0 (MinValue)
-    game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
-end)
