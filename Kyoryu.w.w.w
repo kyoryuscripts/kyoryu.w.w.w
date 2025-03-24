@@ -52,6 +52,7 @@ end)
 Section:NewButton("Hiori", "ButtonInfo", function()
 game.Players.LocalPlayer.PlayerStats.Style.Value = "Hiori"
     print("Clicked")
+end)
 Section:NewButton("Gagamaru", "ButtonInfo", function()
 game.Players.LocalPlayer.PlayerStats.Style.Value = "Gagamaru"
     print("Clicked")
