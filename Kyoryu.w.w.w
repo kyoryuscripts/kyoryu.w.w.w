@@ -116,3 +116,79 @@ Section:NewButton("NEL Isagi", "ButtonInfo", function()
 game.Players.LocalPlayer.PlayerStats.Style.Value = "NEL Isagi"
     print("Clicked")
 end)
+local Tab = Window:NewTab("FLOW")
+local Section = Tab:NewSection("Rare")
+Section:NewButton("Puzzle", "ButtonInfo", function()
+game.Players.LocalPlayer.PlayerStats.Flow.Value = "Puzzle"
+    print("Clicked")
+end)
+Section:NewButton("Ice", "ButtonInfo", function()
+game.Players.LocalPlayer.PlayerStats.Flow.Value = "Ice"
+    print("Clicked")
+end)
+Section:NewButton("Lightning", "ButtonInfo", function()
+game.Players.LocalPlayer.PlayerStats.Flow.Value = "Lightning"
+    print("Clicked")
+end)
+
+local Section = Tab:NewSection("Epic")
+Section:NewButton("King's Instinct", "ButtonInfo", function()
+game.Players.LocalPlayer.PlayerStats.Flow.Value = "King's Instinct"
+    print("Clicked")
+end)
+Section:NewButton("Genius", "ButtonInfo", function()
+game.Players.LocalPlayer.PlayerStats.Flow.Value = "Genius"
+    print("Clicked")
+end)
+Section:NewButton("Gale Burst", "ButtonInfo", function()
+game.Players.LocalPlayer.PlayerStats.Flow.Value = "Gale Burst"
+    print("Clicked")
+end)
+Section:NewButton("Monster", "ButtonInfo", function()
+game.Players.LocalPlayer.PlayerStats.Flow.Value = "Monster"
+    print("Clicked")
+end)
+local Section = Tab:NewSection("Legendary")
+Section:NewButton("Demon Wings", "ButtonInfo", function()
+game.Players.LocalPlayer.PlayerStats.Flow.Value = "Demon Wings"
+    print("Clicked")
+end)
+Section:NewButton("Trap", "ButtonInfo", function()
+game.Players.LocalPlayer.PlayerStats.Flow.Value = "Trap"
+    print("Clicked")
+end)
+Section:NewButton("Chameleon", "ButtonInfo", function()
+game.Players.LocalPlayer.PlayerStats.Flow.Value = "Chameleon"
+    print("Clicked")
+end)
+Section:NewButton("Wild Card", "ButtonInfo", function()
+game.Players.LocalPlayer.PlayerStats.Flow.Value = "Wild Card"
+    print("Clicked")
+end)
+Section:NewButton("Crow", "ButtonInfo", function()
+game.Players.LocalPlayer.PlayerStats.Flow.Value = "Crow"
+    print("Clicked")
+end)
+
+local Section = Tab:NewSection("Mythic")
+Section:NewButton("Snake", "ButtonInfo", function()
+game.Players.LocalPlayer.PlayerStats.Flow.Value = "Snake"
+    print("Clicked")
+end)
+Section:NewButton("Dribbler", "ButtonInfo", function()
+game.Players.LocalPlayer.PlayerStats.Flow.Value = "Dribbler"
+    print("Clicked")
+end)
+Section:NewButton("Prodigy", "ButtonInfo", function()
+game.Players.LocalPlayer.PlayerStats.Flow.Value = "Prodigy"
+    print("Clicked")
+end)
+local Section = Tab:NewSection("World Class")
+Section:NewButton("Soul Harvester", "ButtonInfo", function()
+game.Players.LocalPlayer.PlayerStats.Flow.Value = "Soul Harvester"
+    print("Clicked")
+end)
+Section:NewButton("Awakened Genius", "ButtonInfo", function()
+game.Players.LocalPlayer.PlayerStats.Flow.Value = "Awakened Genius"
+    print("Clicked")
+end)
